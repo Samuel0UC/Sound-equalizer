@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /**background-image: url("assets/bg-main-desktop.png"); **/
+}
+
+html {
+  /***      ------COLORS---------             ***/
+  --ios-download-button-default: #191826;
+  --ios-download-button-hover: #66e2dc;
+  --android-download-button-default: #fcfaf9;
+  --android-download-button-hover: #ffb964;
+  --payment-card: #fa7453;
+
+  /**** ----FONTS AND TYPOGRAPHY---- ****/
+
+  --h1-font-typography: ibm plex sans bold 88px 88px line -1px spacing;
+  --h2-font-typography: ibm plex sans bold 40px 52px line;
+  --body1-font-typography: ibm plex sans reg 20px 34px line;
+  --body2-font-typography: ibm plex sans Reg 16px 26px line;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(assets/bg-main-desktop.png);
+  background-size: 700px;
+}
+
+.intro h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+
+.intro p {
+  padding: 7px 0px 0px 0px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: justify;
+  width: 87%;
+}
+
+.wrapper {
+  display: flexbox;
+  width: 70%;
+  padding-top: 25px;
+  margin-left: 70px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+/***********************    SECTION PAYMENT ******************/
+#payment_plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+#payment_plan img {
+  z-index: 1;
+}
+
+.black_board {
+  width: 89.8%;
+  height: 25rem;
+  background-color: var(--ios-download-button-default);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+.phone_image img {
+  height: 450px;
+  width: 250px;
+}
+
+.subscription {
+  margin: 15px;
+  padding: 30px;
+  width: 25%;
+  height: 25rem;
+  background-color: var(--payment-card);
+  border-radius: 0.2rem;
+  text-align: left;
+}
+
+.subscription h2 {
+  font-family: IBM Plex Sans, sans-serif;
+  line-height: 52px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.subscription p {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.button {
+  padding-bottom: 5px;
+}
+
+.ios {
+  margin-top: 5px;
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--ios-download-button-default);
+  align-content: center;
+  color: white;
+}
+
+.android {
+  margin-top: 10px;
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--android-download-button-default);
+}
+
+.ios_icon {
+}
+
+.android_icon {
+}
